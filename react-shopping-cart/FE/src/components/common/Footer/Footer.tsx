@@ -16,7 +16,7 @@ export default function Footer({ children, isDisable = true, onClick }: IFooterP
       onClick={onClick}
       disabled={isDisable}
     >
-      <Text type="body" color="light">{children}</Text>
+      <Text type="subTitle" color="light">{children}</Text>
     </S.FooterContainer>
   );
 }

@@ -34,7 +34,6 @@ export default function TotalAmount({
   const {
     calculateTotalAmount,
     calculateShippingFee,
-    calculateFinalAmount,
     calculateTotalDiscount,
     calculateFinalAmountWithDiscount,
   } = useOrderCalculator(selectedItems, selectedCoupon);
